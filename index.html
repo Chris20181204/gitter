@@ -19,14 +19,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.2.4/owl.carousel.min.js"></script>
 
 </head>
-<body>
-<h1>12315</h1>
+<body data-spy="scroll" data-target="#navbar-example">
+
 <!-- nav -->
 <header>
     <nav class="navbar navbar-expand-md navbar-light bg-white fixed-top shadow-sm">
         <!-- coffee商標 -->
         <a class="navbar-brand" href="index.html">
-            <img src="images/coffee-logo.svg" alt="Coffee咖啡館商品">
+            <img src="images/coffee-logo.png" width="150" alt="Coffee咖啡館商品">
         </a>
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarResponsive">
             <span class="navbar-toggler-icon"></span>
@@ -117,127 +117,221 @@
              </tbody>
           </table>
 </section>
-<!-- 餐點/環境 -->
-<section class="mt-5 envor">
+<!-- 三圖區分 -->
+<section id="three" class="envor">
         <div class="container">
-            <div class="row mt-3">
-                <div class="col-lg-12 mt-5"><img class="w-100" src="images/01.jpg" alt=""></div>
-            </div>
-            <div class="row no-gutters">
-                <div class="col-lg-5"><img class="w-100" height="100.01%" src="images/02.jpg" alt=""></div>
-                <div class="col-lg-7"><img class="w-100" src="images/03.jpg" alt=""></div>
+            <div class="row mt-5">
+                <div class="col-md-4 text-center">
+                    <img src="images/coffee.png" alt="">
+                    <h3 class="mt-4 font-weight-bold">手做咖啡</h3>
+                    <p></p>剛磨好的咖啡豆確實泡起來最香醇、好喝，若
+                        對咖啡口味非常講究。
+                    </p>
+                </div>
+                <div class="col-md-4 text-center">
+                        <img src="images/cookies.png" alt="">
+                        <h3 class="mt-4 font-weight-bold">手工餅乾</h3>
+                        <p>手工揉製、嚴選食材奶香濃郁、口感酥脆。
+                            高人氣口味手工餅乾暖心推薦。
+                        </p>
+                </div>
+                <div class="col-md-4 text-center">
+                        <img src="images/cake.png" alt="">
+                        <h3 class="mt-4 font-weight-bold">精緻甜點</h3>
+                        <p>每份甜點背後的那份渴望傳遞幸福的心意，
+                            都使每一口成為甜蜜的記憶。
+                        </p>
+                </div>
             </div>
         </div>  
 </section>
-<!-- textcontainer -->
+<!-- 五張照片 -->
+<div id="five" class="container">
+    <div class="row mt-5">
+        <div class="col-md-7 col-sm-12">
+            <img src="images/pic01.jpg" class="w-100" alt="">
+            <p class="text-right">招牌起司蛋餅</p>
+        </div>
+        <div class="col-md-5 col-sm-12">
+            <img src="images/pic02.jpg" class="w-100 " alt="">
+            <p class="text-right">生菜吐司沙拉</p>
+        </div>
+    </div>
+    <div class="row mt-1 tt">
+        <div class="col-md-4 col-sm-12">
+            <img src="images/pic03.jpg" class="w-100" alt="">
+            <p class="text-right">草莓芋泥布丁塔</p>
+        </div>
+        <div class="col-md-3 col-sm-12">
+            <img src="images/pic04.jpg" class="w-100" alt="">
+            <p class="text-right">烘烤牛肉餅皮</p>
+        </div>
+        <div class="col-lg-5 col-md-5 up col-sm-12">
+            <img src="images/pic05.jpg" class="w-100" alt="">
+            <p class="text-right">茄汁義大利醬麵</p>
+        </div>
+    </div>
+</div>
+<!-- 品牌精神 -->
 <section class="mt-5 textcontainer">
         <div class="container text-center">
-            <img src="images/icons_coffee-shop.png" alt="">
-            <h2>—&nbsp;享受生活味蕾&nbsp;—</h2>
+                <h2 class="text-center">品牌精神</h2>
+                <p class="text-center">Brand</p>
     
             <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-8">
+                <div class="col-md-6">
+                        <img src="images/icons_coffee-shop.png" alt="">
+                </div>
+                <div class="col-md-6">
                     <p class="mt-5">
                         <i class="fas fa-quote-left"></i>
-                        Coffee提供高品質的咖啡與服務以及莊園級精品咖啡豆或單品咖啡豆，</br>
+                        Coffee提供高品質的咖啡與服務以及莊園級精品咖啡豆或單品咖啡豆，
                         我們除了義式壓縮也提供手沖咖啡，搭配獨特的空間設計理念，
                         提供你一個品嚐咖啡的一個好去處。
-                        
                         <i class="fas fa-quote-right"></i>
                     </p>
+                    <button type="button" class=" btn btn-outline-dark btn-lg font-weight-bold"> 更多相關訊息 > </button>
                 </div> 
-                <div class="col-md-2"></div>   
+                   
             </div>
         </div>
 
 </section>
-<!--bgi背景圖固定 -->
+<!--4圖背景圖固定 -->
 <section class="mt-5">
-    <div class="container-fluid bg2 text-center">
-        <h2>空出片刻時間，品嚐手沖咖啡的美</h2>
+    <div class="container-fluid">
+        <div class="row no-gutters cc">
+            <div class="col-md-3 gg">
+                <div class="bg bg00">
+                    <img src="images/bg00.jpg" class="w-100" alt="">
+                    <p>點心</p>
+                </div>
+            </div>
+            <div class="col-md-3 gg">
+                    <div class="bg bg01">
+                        <img src="images/bg01.jpg" class="w-100" alt="">
+                        <p>咖啡</p>
+                    </div>
+            </div>
+            <div class="col-md-3 gg">
+                    <div class="bg bg02">
+                        <img src="images/bg02.jpg" class="w-100" alt="">
+                        <p>甜點</p>
+                    </div>
+            </div> 
+            <div class="col-md-3 gg">
+                    <div class="bg bg03">
+                        <img src="images/bg03.jpg" class="w-100" alt="">
+                        <p>餅乾</p>
+                    </div>
+            </div>   
+        </div>
     </div>
 </section>
-<!--咖啡點滴 -->
-<section class="mt-5">
-        <div class="container text-center">
-            <h2 class="text-center coffeetext"><i class="fas fa-coffee"></i>&nbsp;咖啡點滴</h2>
-            <!-- part1 -->
-            <div class="row mt-5">
-                <!-- 文章1 -->
-                <div class="col-md-6">
-                    <div class="card border-0">
-                        <img src="images/11.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title font-weight-bold">用點滴法手沖，讓咖啡更加厚實！</h5>
-                          <p>手沖咖啡的方法我們將分成: 日式本格派、日式金澤派、攪拌式、斷水法、不斷水法，以上面幾項進行實驗與差異性分析</p>
-                          <p></p>
-                          <hr>
-                          
-                        </div>
-                    </div>
-                </div>
-                <!-- 文章2 -->
-                <div class="col-md-6">
-                    <div class="card border-0">
-                        <img src="images/22.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title font-weight-bold">咖啡到底要不要放冰箱?正確保存方法一次搞懂</h5>
-                          <p>如果你也是位咖啡控，那你應該能夠體會在家泡咖啡能夠省下不少錢的道理，到底應該怎麼保存才能不讓咖啡的風味流失呢？</p>
-                          <hr>
-                        </div>
-                        
-                    </div>
+<!--卡片區 -->
+<section id="card" class="card">
+        <div class="container">
+                <h2 class="text-center">卡片專區</h2>
+                <p class="text-center">Card</p>
+        <!-- 1 -->
+        <div class="row">
+            <div class="col-md-5">
+            <div class="card">
+                <img src="images/news-01.jpg"  class="w-100 card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">恭喜達成三十萬會員成立，會員限定期間優惠，新用卡刷卡消費滿888再送88點數回饋禮金，
+                        活動期限至年底12月底前，趕緊來買個夠...
+                    </p>
+                    <button href="#" class="btn btn-outline-dark font-weight-bold">詳細資訊 ></button>
                 </div>
             </div>
-            <!-- part2 -->
-            <div class="row">
-                <!-- 文章3 -->
-                <div class="col-md-6">
-                    <div class="card border-0">
-                        <img src="images/33.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title font-weight-bold">這時喝效果加倍！咖啡不只抗失智，也能防中風肝癌</h5>
-                          <p>咖啡有助於預防大腦症狀與各種疾病。咖啡愛好者遍布全球，並不是因為可以預防疾病，而是因為好喝又提神醒腦</p>
-                          <hr>
-                        </div>
-                     </div>
+            </div>
+            <div class="col-md-7">
+            <div class="card">
+                <img src="images/news-02.jpg"  class="w-100 card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">這個夏季，讓你杯子變的不一樣。<br>
+                    凡消費滿500元，即可獲得限量版花樣玻璃保溫瓶抽獎券一張，全台限量1000個，買越多抽越多，就等你來抽...</p>
+                    <button href="#" class="btn btn-outline-dark font-weight-bold">詳細資訊 ></button>
                 </div>
-                <!-- 文章4 -->
-                <div class="col-md-6">
-                    <div class="card border-0">
-                        <img src="images/44.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title font-weight-bold">科學證明：１３個你應該要多喝咖啡的理由</h5>
-                          <p>咖啡是種非常健康的飲品，它富含抗氧化劑以及對健康有益的營養素。研究顯示，飲用咖啡的人較不易罹患特定的疾病。</p>
-                          <hr>
-                        </div>
-                        
+            </div>
+            </div>
+        </div>
+        <!-- 2 -->
+        <div class="row mt-3">
+                <div class="col-md-7">
+                <div class="card">
+                    <img src="images/news-03.jpg"  class="w-100 card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">季節咖啡限定，凡是購買指定商品，並消費達到千元標準，利買折扣200元現金，讓你帶回家；
+                            這麼划算的事，只有在這個季節才會出現...</p>
+                        <button href="#" class="btn btn-outline-dark font-weight-bold">詳細資訊 ></button>
                     </div>
                 </div>
+                </div>
+                <div class="col-md-5">
+                <div class="card">
+                    <img src="images/news-04.jpg"  class="w-100 card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">官方直營限定點數歡樂送，凡在7/1 - 8/16 在官方網站下購買任何產品，點數累積6倍送；送到你不要不要的，不怕你拿，只怕你不買...</p>
+                        <button href="#" class="btn btn-outline-dark font-weight-bold">詳細資訊 ></button>
+                    </div>
+                </div>
+                </div>
             </div>
-            <!-- 閱讀更多-按鈕 -->
-            <div class="text-center">
-                <button type="button" class="btn btn-outline-dark btn-lg">閱讀更多&nbsp;→</button>
-            </div>
-            
         </div>
 </section>
+<!-- 聯絡我們 -->
+<section id="contact" class="mt-5">
+    <div class="container">
+            <h2 class="text-center">聯絡我們</h2>
+            <p class="text-center">Contact</p>
+        <div class="row">
+            
+            <div class="col-md-6">
+                <form> 
+                        <div class="form-group font-weight-bold">
+                                <label for="exampleInputName">姓名 Name</label>
+                                <input type="email" class="form-control" id="exampleInputName" aria-describedby="emailHelp" placeholder="">
+                        </div>
+
+                        <div class="form-group font-weight-bold">
+                          <label for="exampleInputEmail1">信箱 E-mail</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+                        </div>
+
+                        <div class="form-group font-weight-bold">
+                          <label for="exampleInputPassword1">電話 Cell Phone</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
+                        </div>
+                        
+                        <div class="form-group font-weight-bold">
+                                <label for="exampleFormControlTextarea1">建議事項 Suggestion</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-dark">送出訊息</button>
+
+                      </form>
+            </div>    
+            <div class="col-md-6 text-center">
+                <img src="images/area.jpg" width="300" src="" alt="">
+                <p class="mt-2 text-muted">歡迎有任何問題都可以詢問我們!<br>祝您有美好的一天</p>
+            </div>      
+        </div>
+    </div>
+        
+</section>
 <!-- footer -->
-<footer class="py-md-4 py-lg-5 text-white mt-5 link-color">
+<footer class="py-md-4 py-lg-5 text-white link-color">
         <div class="container pt-3">
             
             <div class="d-flex justify-content-between"> 
-              <!-- logo圖 -->
-              <div class="footerlogo">
-                  <div class="d-md-block">
-                      <img src="images/coffee-logo-white.png"  alt="logo">
-                  </div>
-              </div>
+             
               
               <div class="row">
                   <!-- 關於Coffee Room -->
-                  <ul class="col-md-4">
+                  <ul class="col-md-6">
                       <h4>關於Coffee Room</h4>
                       <p class="text-muted">"平價享受，只服務最懂咖啡的你"</p>
                       <p>「高貴享受，平價消費」的服務堅持「精緻、美感、創新」</p>
@@ -268,7 +362,7 @@
                       </ul>
                   </ul>
                   <!-- 網站連結 -->
-                  <ul class="col-md-4">
+                  <ul class="col-md-2">
                       <h4>網站連結</h4>
                       <ul class="nav flex-column list-unstyled">
                           <li class="nav-item"><a href="#coffee-products.html" class="nav-link">商品介紹</a></li>

@@ -1,0 +1,274 @@
+*{font-family:微軟正黑體;}
+
+body{
+  position: relative;
+}
+/*-- nav --*/
+.navbar .navbar-nav .nav-link{
+  font-size: 1.2rem;
+  margin-left: 5px;
+} 
+.navbar-brand{
+  margin-left: 80px;
+  width:80px;
+}
+/*-- figure 輪播圖片owl --*/
+ .owl{
+  margin-top: 100px;
+}
+/*-- 最新消息news --*/
+.table thead th{
+  font-size: 1.8rem;
+}
+.table tbody th,.table tbody td{
+  padding: 25px 0px;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+}
+/* 三圖區分 */
+#three{
+  margin: 100px;
+}
+#three .text-center{
+  padding:0 50px;
+}
+#three .text-center p{
+  letter-spacing: 1.5px;
+}
+#three img{
+  width: 100px;
+  background: rgba(241, 158, 32,.3);
+  padding: 20px;
+  border-radius: 50%;
+}
+/* 五張照片 */
+#five .up{
+ margin-bottom:-100px;
+}
+#five .col-sm-12{
+  margin-top: 15px;
+}
+@media screen and (max-width:576px){
+  .up{
+    /* margin-top: 0px; */
+  }
+  #five .tt{
+    /* margin-top: -50px; */
+  }
+}
+/*--  品牌精神 --*/
+.textcontainer h2{
+  color:#712400;
+  font-weight: 900;
+  letter-spacing: 0.4rem;
+}
+.textcontainer p{
+  letter-spacing: .1rem;
+  line-height: 2rem;
+  font-size: 20px;
+}
+.textcontainer i .fa-quote-left{
+  padding-right: 25px;
+}
+.textcontainer i .fa-quote-right{
+  padding-left: 25px;
+}
+/*-- 4圖背景圖固定 --*/
+.bg{
+  position: relative;
+}
+.bg p{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.bg00 p,
+.bg01 p,
+.bg02 p,
+.bg03 p{
+  padding: 80px 110px;
+  /* margin: auto; */
+  color:#fff;
+  text-align: center;
+  background: rgba(0,0,0,.7);
+  opacity: 0;
+  transition: all .5s ease;
+  border-radius: 50%;
+  font-size: 30px;
+  cursor: pointer;
+}
+.bg00:hover p,
+.bg01:hover p,
+.bg02:hover p,
+.bg03:hover p{
+  opacity: 1;
+}
+.gg{
+  overflow: hidden;
+}
+@media screen and (min-width:500px) and (max-width:1024px){
+  .bg00 p,
+  .bg01 p,
+  .bg02 p,
+  .bg03 p{
+    padding: 40px 60px;
+    font-size: 20px;
+  }
+}
+
+/*-- 卡片區  --*/
+#card{
+ padding-top: 120px;
+}
+#card .container h2{
+  color:#712400;
+  font-weight: 900;
+  letter-spacing: 0.4rem;
+}
+#card .container p{
+  letter-spacing: .1rem;
+  line-height: 2rem;
+  font-size: 20px;
+}
+/* 聯絡我們 */
+#contact{
+  padding-bottom: 20px;
+  padding-top: 50px;
+  background: rgb(187, 184, 184);
+}
+#contact .container h2{
+  color:#712400;
+  font-weight: 900;
+  letter-spacing: 0.4rem;
+}
+#contact .container p{
+  letter-spacing: .1rem;
+  line-height: 2rem;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+/*-- footer --*/
+footer{
+  background-color: #222;
+}
+footer h4{
+  color:#ffcb3d;
+}
+footer img{
+  margin-top: -1%;
+  width: 150px;
+}
+footer p, .spantext{
+  line-height: 1.8rem;
+}
+.link-color a:link{
+  color:#fff;
+}
+.link-color a:hover{
+  color:#ffff73;
+  text-decoration: none;
+}
+.social-link a{
+  font-size: 1.2rem;
+  border-radius: 50%;
+  width: 2.4rem;
+  height: 2.4rem;
+  display: inline-block;
+  text-align: center;
+  line-height: 2.4rem;
+  margin:.1rem ;
+  /* border:solid 1px #fff; */
+}
+.social-link a:hover{
+  background-color: rgb(30, 63, 104);
+}
+
+/*---------- 768px斷點 ------------------*/
+@media screen and ( max-width : 768px){
+/*-- nav -- */
+.navbar-brand{
+  margin-left: 40px;
+  width:60px;
+}
+/*-- figure 輪播圖片owl--*/
+figure .owl{
+  margin-top: 80px;
+}
+/*-- figure 輪播圖片owl--*/
+.table tbody th,.table tbody td{
+  padding: 18px 0px;
+  font-size: 1rem;
+}
+/*-- 04-section bgi背景圖固定 --*/
+.bg2{
+  padding: 120px;
+}
+.bg2 h2{
+  font-size: 1.3rem;
+  color:#fff;
+  letter-spacing: .8rem;
+}
+/*-- footer --*/
+footer .footerlogo{
+  display: none;
+}
+}
+/*---------- 700px斷點 ------------------*/
+@media screen and (max-width:1200px){
+  footer .footerlogo{
+    display: none;
+  }
+}
+/*---------- 576px斷點 ------------------*/
+@media screen and (max-width:576px){
+/*-- nav --*/
+  .navbar-brand{
+    margin-left: 30px;
+    width:50px;
+  }
+  .navbar-toggler .navbar-toggler-icon {
+    width: 1em;
+    height: 1em;
+  }
+/*-- figure 輪播圖片owl --*/
+figure .owl{
+  margin-top:78px;
+}
+/*-- 01-section 最新消息news --*/
+.table tbody th,.table tbody td{
+  padding: 8px 10px;
+  letter-spacing: 1px;
+  font-size: .8rem;
+}
+.table thead th{
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+.table tbody td span{
+  display: none;
+}
+/*-- 04-section bgi背景圖固定 --*/
+.bg2{
+ padding: 80px;  
+}
+.bg2 h2{
+  font-size: 1rem;
+  letter-spacing:.1rem;
+}
+/*-- footer --*/
+footer .footerlogo{
+  display: none;
+}
+footer .row{
+  padding:2rem;
+}
+footer .row .col-md-4{
+  margin-top: 10px;
+} 
+footer .spantext{
+  display: block;
+  padding-top: .2rem;
+  padding-bottom: .8rem;
+}
+}
